@@ -1,0 +1,22 @@
+        git 
+
+        [--version] [--help] [-C <path>] [-c <name>=<value>]
+        [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+        [-p|--paginate|-P|--no-pager] [--no-replace-objects] [--bare]
+        [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+        [--super-prefix=<path>]
+        <command> [<args>]
+
+>       --version
+
+Показывает текущую установленную версию гита 
+
+>       --help 
+
+Показывает краткий обзор и наиболее используемые команды
+- --all -a - показывает все доступные команды
+- <команда> показывает помощь по конкретной команде. Может ставиться до или после опции 
+
+>       -C <path>    
+
+Позволяет запустить гит по указанному пути
