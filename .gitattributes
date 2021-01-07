@@ -1,0 +1,13 @@
+* text=auto
+
+*.html text
+*.js text
+*.css text
+
+*.sln text eol=crlf
+*.bat eol=crlf
+
+*.sh eol=lf
+
+*.jpg binary
+*.gif binary
