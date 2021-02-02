@@ -1,19 +1,22 @@
     git add
 
-    [--verbose | -v] [--dry-run | -n] [--force | -f] [--interactive | -i] [--patch | -p]
-    [--edit | -e] [--[no-]all | --[no-]ignore-removal | [--update | -u]]
-    [--intent-to-add | -N] [--refresh] [--ignore-errors] [--ignore-missing] [--renormalize]
-    [--chmod=(+|-)x] [--pathspec-from-file=<file> [--pathspec-file-nul]]
-    [--] [<pathspec>…]
 ######
 
         -v --verbose
 
-Пишет, что делает
+Пишет, что делает `git add . -v`
 
         -n --dry-run
 
-Показывает что сделает, но не делает
+Показывает что сделает, но не делает `git add . -n`
 
         -f --force
-Добавляет в стейдж игнорируемые файлы
+Добавляет в стейдж игнорируемые файлы `git add . -f`
+
+        -i --interactive
+
+Интерактивный режим добавления в стейдж. Указание путей в виде доп. аргументов можно ограничить выбор файлов для работы `git add -i`
+
+        -p --patch
+
+Тоже самое что `git add -i` и потом выбор в интерактивном меню patch `git add -p`
