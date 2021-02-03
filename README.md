@@ -18,7 +18,7 @@
 ### Базовое управление состоянием
 
 - [add](/basic_snapshotting/add)
-- status
+- [status](/basic_snapshotting/status)
 - diff
 - commit
 - notes
