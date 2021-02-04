@@ -20,7 +20,7 @@
 - [add](/basic_snapshotting/add)
 - [status](/basic_snapshotting/status)
 - diff
-- commit
+- [commit](/basic_snapshotting/commit)
 - notes
 - restore
 - reset
